@@ -33,7 +33,7 @@
     "node-sass": "^3.7.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "browser-sync": "^2.11.1",
+    "browser-sync": "^2.16.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-cssmin": "^0.1.7"
   }
