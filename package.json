@@ -30,7 +30,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.1.1",
     "gulp-uglify": "^2.0.0",
-    "node-sass": "^3.7.0",
+    "node-sass": "^3.11.1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "browser-sync": "^2.11.1",
