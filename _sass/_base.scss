@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+// test comment
 /**
  * Reset some basic elements
  */
@@ -32,7 +33,8 @@ ul {
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height}
+    $base-font-family;
   color: $dark-color;
   background-color: $background-color;
   // These prefixes cannot be added via autoprefixer
@@ -149,7 +151,6 @@ a {
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
-
   }
 
   &:not(.button):hover {
@@ -164,11 +165,11 @@ a {
 
 // Gallery Share links
 .pswp__share-tooltip a:hover {
-  color: #333!important;
+  color: #333 !important;
   background-color: white;
   text-decoration: underline;
 }
 
 .pswp__share-tooltip a:before {
-  display: none!important;
+  display: none !important;
 }
