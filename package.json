@@ -9,7 +9,8 @@
     "build": "gulp build",
     "serve": "gulp",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -42,7 +43,7 @@
     "node-sass": "^4.9.1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "snyk": "^1.103.1"
+    "snyk": "^1.161.1"
   },
   "snyk": true
 }
